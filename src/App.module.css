@@ -11,4 +11,8 @@
   background-color: #ffffff;
   border: 1px solid #e9ecef;
   border-radius: 32px 0 0 32px;
+  flex-direction: column;
+  padding: 48px;
+  display: flex;
+  gap: 32px;
 }

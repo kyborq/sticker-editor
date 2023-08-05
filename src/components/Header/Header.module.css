@@ -1,0 +1,11 @@
+.Header {
+  user-select: none;
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.Title {
+  margin: 0;
+  font-size: 18px;
+}

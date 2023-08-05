@@ -1,0 +1,35 @@
+.Tools {
+  border-radius: 40px;
+  display: flex;
+  padding: 24px 48px;
+  gap: 24px;
+  background-color: #ffffff;
+  border: 1px solid #e9ecef;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.05);
+}
+
+.Container {
+  display: flex;
+  justify-content: center;
+}
+
+.Tool {
+  transition: 150ms;
+  cursor: pointer;
+}
+
+.Tool:hover {
+  transition: 150ms;
+  transform: scale(1.45);
+  margin: 0 8px;
+}
+
+.Tool:first-child:hover {
+  margin-left: 0;
+}
+
+.Tool:last-child:hover {
+  margin-right: 0;
+}

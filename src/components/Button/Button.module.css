@@ -10,6 +10,7 @@
   cursor: pointer;
   transition: 150ms;
   min-height: 48px;
+  color: #3483fc;
 }
 
 .Button:hover {

@@ -32,4 +32,6 @@
 .Footer {
   display: flex;
   padding: 0 32px;
+  flex-direction: column;
+  gap: 8px;
 }

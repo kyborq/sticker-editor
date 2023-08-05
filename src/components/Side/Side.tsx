@@ -5,7 +5,7 @@ import { Stickers } from "../Stickers/Stickers";
 import styles from "./Side.module.css";
 
 export const Side = () => {
-  const [stickers, setStickers] = useState<string[]>([]);
+  const [stickers, setStickers] = useState<string[]>([""]);
 
   return (
     <div className={styles.Side}>
@@ -23,6 +23,7 @@ export const Side = () => {
         />
       </div>
       <div className={styles.Footer}>
+        <Button title="Configure" />
         <Button title="Export" primary />
       </div>
     </div>
