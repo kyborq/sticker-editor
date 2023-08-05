@@ -27,3 +27,11 @@
   font-weight: bold;
   text-transform: uppercase;
 }
+
+.Button.Primary {
+  background-color: #3483fc;
+}
+
+.Button.Primary .Title {
+  color: #ffffff;
+}

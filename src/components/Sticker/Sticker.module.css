@@ -1,0 +1,45 @@
+.Sticker {
+  width: calc(50% - 4px);
+  /* width: 139px; */
+  /* height: 139px; */
+  aspect-ratio: 1 / 1;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.025);
+  cursor: pointer;
+  transition: 150ms;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Sticker:hover {
+  box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.05);
+  transition: 150ms;
+}
+
+.Sticker.Selected {
+  outline: 2px solid #3483fc;
+  outline-offset: -8px;
+}
+
+.Sticker.Empty {
+  background-color: transparent;
+  box-shadow: none;
+  border: 2px dashed #e9ecef;
+  box-sizing: border-box;
+}
+
+.Sticker.Empty .Icon {
+  stroke: #ced4da;
+  transition: 150ms;
+}
+
+.Sticker.Empty:hover {
+  border-color: #3483fc;
+}
+
+.Sticker.Empty:hover .Icon {
+  stroke: #3483fc;
+  transition: 150ms;
+}

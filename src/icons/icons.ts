@@ -8,6 +8,7 @@ import trash from "./remove.svg";
 import saveFile from "./save-file.svg";
 import sticker from "./sticker.svg";
 import github from "./github.svg";
+import add from "./add.svg";
 
 export const icons = {
   logo,
@@ -20,6 +21,7 @@ export const icons = {
   saveFile,
   sticker,
   github,
+  add,
 };
 
 export type TIcon = keyof typeof icons;
