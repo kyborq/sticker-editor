@@ -1,0 +1,29 @@
+.Button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  border: none;
+  background-color: #e9ecef;
+  padding: 12px 0;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 150ms;
+  min-height: 48px;
+}
+
+.Button:hover {
+  background-color: #dee2e6;
+  transition: 150ms;
+}
+
+.Button:active {
+  transform: scale(0.97);
+  transition: 150ms;
+}
+
+.Title {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}

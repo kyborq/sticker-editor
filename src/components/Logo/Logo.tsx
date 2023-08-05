@@ -10,6 +10,9 @@ export const Logo = () => {
         <h1 className={styles.Name}>iStickers</h1>
         <span className={styles.Version}>v0.0.1</span>
       </div>
+      <a href="https://github.com/kyborq/sticker-editor" target="_blank">
+        <Icon name="github" />
+      </a>
     </div>
   );
 };

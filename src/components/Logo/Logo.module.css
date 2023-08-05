@@ -1,5 +1,5 @@
 .Logo {
-  padding: 33px;
+  padding: 0 32px;
   display: flex;
   align-items: center;
   gap: 24px;
@@ -9,6 +9,7 @@
 .Info {
   display: flex;
   flex-direction: column;
+  flex: 1;
 }
 
 .Name {
@@ -18,5 +19,5 @@
 
 .Version {
   font-size: 13px;
-  color: #c7c7c7;
+  color: #ced4da;
 }
