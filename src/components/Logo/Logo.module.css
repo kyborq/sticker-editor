@@ -1,0 +1,22 @@
+.Logo {
+  padding: 33px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  user-select: none;
+}
+
+.Info {
+  display: flex;
+  flex-direction: column;
+}
+
+.Name {
+  margin: 0;
+  font-size: 24px;
+}
+
+.Version {
+  font-size: 13px;
+  color: #c7c7c7;
+}
